@@ -27,7 +27,7 @@
   src="Images\trpl04-04.svg"
   alt="Alt text"
   title="Optional title"
-  style="display: block; margin: 0 auto; max-width: 200px">
+  style="display: block; margin: 0 auto; width: 200px">
 
 ### Ownership and Functions
 - The mechanics of passing a value to a function are similar to those when assigning a value to a variable. Passing a variable to a function will move or copy, just as assignment does. Listing 4-3 has an example with some annotations showing where variables go into and out of scope.
