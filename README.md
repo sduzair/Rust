@@ -23,14 +23,11 @@
 
 - If you’ve heard the terms shallow copy and deep copy while working with other languages, the concept of copying the pointer, length, and capacity without copying the data probably sounds like making a shallow copy. But because Rust also invalidates the first variable, instead of being called a shallow copy, it’s known as a move. In this example, we would say that s1 was moved into s2.
 
-<div
-    style="display: flex; justify-content: center">
 <img
   src="Images\trpl04-04.svg"
   alt="Alt text"
   title="Optional title"
-  style="display: block; margin: auto; width: 300px">
-</div>
+  style="display: block; margin-left: auto; margin-right: auto; width: 300px">
 
 ### Ownership and Functions
 - The mechanics of passing a value to a function are similar to those when assigning a value to a variable. Passing a variable to a function will move or copy, just as assignment does. Listing 4-3 has an example with some annotations showing where variables go into and out of scope.
