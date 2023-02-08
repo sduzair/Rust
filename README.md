@@ -24,7 +24,7 @@
 - If you’ve heard the terms shallow copy and deep copy while working with other languages, the concept of copying the pointer, length, and capacity without copying the data probably sounds like making a shallow copy. But because Rust also invalidates the first variable, instead of being called a shallow copy, it’s known as a move. In this example, we would say that s1 was moved into s2.
 
 <div
-    style="display: flex">
+    style="display: flex; justify-content: center">
 <img
   src="Images\trpl04-04.svg"
   alt="Alt text"
