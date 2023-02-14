@@ -28,6 +28,7 @@ fn main() {
     println!("{}", returned_string);
 
     // *Takes ownership of a variable and returns it
+    // 'References' allow using a value without taking ownership of it
     let returned_string = takes_and_gives_back(returned_string);
     println!("{}", returned_string);
 
